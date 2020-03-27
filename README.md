@@ -13,13 +13,13 @@ pip install pyquery
 ```
 
 ## Main Functions and Script
-- **Exporter.py:** Export tweets to a csv file named "output_got.csv".  
+- **Exporter.py:** Export tweets to a csv file named **output_got.csv**.  
 It was modified from the original version. The program stops for 10 minutes after crawling 10,000 tweets, which is tested to be a stable pace. A counter and much more output were used to trace the condition of the program.
 
-- **gendate.py:** Generate a list of dates to date.txt.  
+- **gendate.py:** Generate a list of dates to **date.txt**.  
 Once the acquisition process is blocked, it can be used to generate the date, which simplified the debug process.
   
-- **gencommand.py:** Generate the script for the data acquisition process.  
+- **gencommand.py:** Generate the script **go.sh** for the data acquisition process.  
 It uses the date.txt and stores the data for one day according to the date.
 
 - **checker.py:** Check whether we have obtained all of the tweets for every day.  
@@ -30,7 +30,7 @@ It calls the Exporter.py with components of *-querysearch* *-since* and *-until*
 
 - **date.txt:** The list of the date when data needed to be collected.
 
-- **nowcnt.txt:** The counter recorded by Exporter.py.
+- **nowcnt.txt:** The counter recorded by **Exporter.py**.
 
 - **Main.py:** Examples of how to use.  
 It is used to check whether the connection to Twitter is unblocked.
