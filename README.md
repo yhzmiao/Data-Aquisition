@@ -7,7 +7,7 @@ So this project used a different method to crawl the data directly from Twitter 
 
 
 ## Prerequisites
-The original version support both python 3+ and Python 2.7+. Since there remain several bugs in the python3 version. This project chooses the python 2.7+ version instead. And pyquery package is needed.
+The original version support both Python 3+ and Python 2.7+. Since there remain several bugs in the Python 3+ version. This project chooses the Python 2.7+ version instead. And pyquery package is needed.
 ```
 pip install pyquery
 ```
